@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the directory of the current script
-SCRIPT_DIR=$(realpath "$0")
+SCRIPT_DIR=$(dirname realpath "$0")
 
 # Source the utility functions
 source "$SCRIPT_DIR/../scripts/utils.sh"
