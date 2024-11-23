@@ -7,7 +7,7 @@ SCRIPT_DIR=$(dirname "$0")
 source "$SCRIPT_DIR/../scripts/utils.sh"
 
 # Define source and target paths
-ZSH_CUSTOM="${ZSH_CUSTOM:-$ZSH/custom}" # Default ZSH_CUSTOM to $ZSH/custom if not set
+ZSH_CUSTOM="$HOME/.oh-my-zsh/custom"
 ALIASES_SRC="$SCRIPT_DIR/aliases.zsh"
 ALIASES_TARGET="$ZSH_CUSTOM/aliases.zsh"
 
