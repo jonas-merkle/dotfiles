@@ -1,0 +1,13 @@
+#######################################
+# Environment variables configuration #
+#######################################
+
+# path - environment variable
+export PATH="$HOME/bin:$PATH"   # Add user bin directory to PATH
+
+# editor - environment variable
+export EDITOR="nano"            # Set nano as the default editor
+
+# localization - environment variables
+export LANG="en_US.UTF-8"       # Set language to English UTF-8
+export LC_ALL="de_DE.UTF-8"     # Set locale to German UTF-8
