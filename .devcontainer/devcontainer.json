@@ -6,9 +6,32 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "vscode-icons-team.vscode-icons",
+                "streetsidesoftware.code-spell-checker",
+                "streetsidesoftware.code-spell-checker-german",
+                "eamodio.gitlens",
+                "seatonjiang.gitmoji-vscode"
             ],
             "settings": {
-                "terminal.integrated.defaultProfile.linux": "zsh"
+                "editor.fontFamily": "'Hack Nerd Font', 'monospace'",
+                "editor.tabSize": 4,
+                "editor.insertSpaces": true,
+
+                "files.autoSave": "afterDelay",
+
+                "git.enableSmartCommit": true,
+                "git.confirmSync": false,
+                "git.autofetch": true,
+
+                "terminal.integrated.fontFamily": "'Hack Nerd Font', 'monospace'",
+
+                "telemetry.telemetryLevel": "crash",
+
+                "workbench.colorTheme": "Default Dark Modern",
+                "workbench.iconTheme": "vscode-icons",
+
+                "cSpell.language": "de,en",
+                "gitlens.telemetry.enabled": false
             }
         }
     },
