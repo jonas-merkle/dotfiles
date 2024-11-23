@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the directory of the current script
-SCRIPT_DIR=$(dirname realpath "$0")
+SCRIPT_DIR=$(dirname "$(realpath "$0")")
 
 # Run setup scripts for Git, SSH, and Zsh
 

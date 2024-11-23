@@ -32,6 +32,6 @@ RUN git clone https://github.com/zsh-users/zsh-autosuggestions /home/vscode/.oh-
 RUN chown -R vscode:vscode /home/vscode/.oh-my-zsh /home/vscode/.zshrc
 
 # Set Zsh as the default shell and ensure the container starts with the vscode user
-WORKDIR /workspace
+WORKDIR /workspaces
 CMD [ "zsh" ]
 USER vscode
