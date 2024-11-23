@@ -1,0 +1,16 @@
+{
+    "name": "Ubuntu Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh"
+            }
+        }
+    },
+    "remoteUser": "vscode"
+  }
