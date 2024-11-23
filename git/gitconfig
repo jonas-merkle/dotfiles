@@ -1,0 +1,6 @@
+[user]
+	name = Jonas Merkle [JJM]
+	email = jonas@jjm.one
+
+[core]
+    excludesfile = ~/.git_globals/gitignore_global
