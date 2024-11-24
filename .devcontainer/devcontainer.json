@@ -23,7 +23,7 @@
                 "git.confirmSync": false,
                 "git.autofetch": true,
 
-                "terminal.integrated.shell.linux": "zsh",
+                "terminal.integrated.defaultProfile.linux": "zsh",
                 "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
 
                 "telemetry.telemetryLevel": "crash",
